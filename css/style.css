@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  clear: both;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.go-left {
+  order: 0;
+}
+.go-right {
+  order: 2;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.box-a {
+  width: 180px;
+  background-color: yellowgreen;
+}
+
+.box-b {
+  width: 600px;
+  background-color: darkslateblue;
+}
+
+.box-c {
+  width: 180px;
+  background-color: darkslategray;
+}
